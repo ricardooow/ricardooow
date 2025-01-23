@@ -40,8 +40,8 @@
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
@@ -1480,6 +1480,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1525,6 +1530,7 @@
                                     <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="0" y="19" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </g>
                         </svg>
@@ -1545,13 +1551,8 @@
                             <div class="entry">
                                 <span class="value">1</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                9
-                                <div class="bottom">Jan.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 10
+                                <div class="bottom">Jan.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -1612,6 +1613,11 @@
                                 <span class="value"></span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 22
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                23
                             </div>
                         </div>
                     </section>
@@ -1621,13 +1627,8 @@
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                9
-                                <div class="bottom">Jan.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 10
+                                <div class="bottom">Jan.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -1688,6 +1689,11 @@
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 22
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                23
                             </div>
                         </div>
                     </section>
@@ -2465,7 +2471,7 @@ The humans visited their neighboring planet, Eyeke.
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 5.53m out of 229m repositories</span>
+                                    <span class="gh">ranked 5.53m out of 232m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">1</div>
                                     </div>
@@ -2576,7 +2582,7 @@ The humans visited their neighboring planet, Eyeke.
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 20 Jan 2025, 22:24:33
+                            On 20 Jan 2025, 22:36:01
                         </div>
                     </section>
                 </div>
@@ -2588,15 +2594,15 @@ The humans visited their neighboring planet, Eyeke.
                             </svg>
                             test:
                             <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />
-                            Humans visit Eyeke
+                            Add new chapter
 
-The humans visited their neighboring planet, Eyeke.
+Humans visit their neigboring planet Eyeke.
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">d846789a</span>
+                            <span class="code">6067e3bd</span>
                             <span class="code">README.md</span>
                             <span class="code">
                                 <span class="snippet additions">++4</span>
@@ -2615,7 +2621,7 @@ The humans visited their neighboring planet, Eyeke.
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 22 Jan 2025, 13:45:03 (timezone Europe/Amsterdam) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 23 Jan 2025, 02:45:56 (timezone Europe/Amsterdam) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
